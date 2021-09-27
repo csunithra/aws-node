@@ -5,7 +5,7 @@ const upload = require('./middleware/file-upload');
 
 const app = express();
 app.use(cors());
-const PORT = process.env.PORT || 8080;
+const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log('Connected to port ' + PORT)
